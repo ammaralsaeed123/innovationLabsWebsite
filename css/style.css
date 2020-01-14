@@ -1,0 +1,374 @@
+html{
+   font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
+}
+
+
+
+.header {
+   display: inline-block;
+   background-color: transparent;
+   z-index: 5;
+   position: fixed;
+   background-color: #fff;
+   margin-top: -8px;
+   height: 100px;
+   width: 100%;
+   font-weight: 600;
+}
+*{
+   font-family: 'Montserrat', sans-serif;
+}
+.site-logo {
+   font-family: 'Montserrat', sans-serif;
+   width: 19%;
+   float: left;
+   display: block;
+   margin-top: 13px;
+}
+.fix {
+   font-family: 'Montserrat', sans-serif;
+   float: left;
+   margin-top: 35px;
+}
+.fix a {
+   margin-left: 35px;
+}
+.fix a {
+   background-color: white;
+   border: none;
+   border-radius: 2px;
+   padding: 5px;
+   font-family: serif;
+   font-size: 24px;
+   color: #2d2769;
+   outline: none;
+   text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+
+}
+a:hover {
+   color: white;
+   background-color: #2d2769;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 5px;
+}
+.Home {
+   width: 90%;
+   height:666px;
+   margin-left: 5%;
+   margin-right: 5%;
+   background-color: white;
+   overflow: hidden;
+   position: relative;
+   padding-top: 60px;
+   margin-top: -8px;
+   font-family: 'Montserrat', sans-serif;
+}
+/* Ammar alsaaed */
+#prev,
+#next {
+   float: left;
+   font-size: 50px;
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+   margin-top: -45%;
+   position: relative;
+   background-color: transparent;
+}
+#next {
+   float: right;
+}
+#prev:hover,
+#next:hover {
+   color: gray;
+}
+.myslides {
+   width: 100%;
+   height: 100%
+}
+.Home img {
+   width: 100%;
+   height: 100%;
+}
+.grop {
+   margin-top: 200px;
+   position: absolute;
+   width: 100%;
+}
+.Department {
+   text-align: center;
+   font-size: 36px;
+   color: #fff !important;
+   padding: 35px 0 !important;
+   margin: 0 !important;
+   background-color: #2d2769;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+}
+
+.About {
+   width: 100%;
+   height: auto;
+   background-color: white;
+   padding-top: 90px;
+   position: relative;
+   margin-bottom: 280px;
+   margin-top: -150px;
+   font-family: 'Montserrat', sans-serif;
+}
+.Programs {
+   width: 100%;
+   height: 2800px;
+   background-color: white;
+   padding-top: 90px;
+   margin-top: 200px;
+   font-family: 'Montserrat', sans-serif;
+}
+.Locations {
+   width: 100%;
+   height: 650px;
+   padding-top: 90px;
+   font-family: 'Montserrat', sans-serif;
+}
+.all {
+   margin-left: 100px;
+   font-family: 'Montserrat', sans-serif;
+}
+/* fatma */
+.pf {
+   display: block;
+   margin-left: 230px;
+   /* width: 528px; */
+   font: 14px/1.7 "Source Sans Pro", sans-serif;
+   font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+   line-height: 1.42857143;
+   color: #333;
+   width: 40%;
+}
+h3 {
+   color: rgb(22, 22, 97);
+   font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+      margin-left: 230px;
+}
+hr {
+   font-family: 'Montserrat', sans-serif;
+   border: 0;
+   margin: 2em 0;
+   height: 1px;
+   color: #eee;
+   background-color: #eee;
+}
+.us:hover {
+   font-family: 'Montserrat', sans-serif;
+   background-color: rgb(26, 26, 98);
+   color: white;
+   text-decoration: none;
+}
+.us {
+   font-family: 'Montserrat', sans-serif;
+   color: #333;
+   transition: all .3s linear;
+}
+.link a {
+   font-family: 'Montserrat', sans-serif;
+   color: #385898;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 22px;
+   background-color: transparent;
+   margin-left: 15px;
+}
+.link a:hover {
+   color: #385898;
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: underline;
+}
+#img {
+   float: right;
+   font-family: 'Montserrat', sans-serif;
+   margin-right: 1220px;
+   margin-bottom: -58px;
+}
+.imgsf {
+   font-family: 'Montserrat', sans-serif;
+   width: 180px;
+   height: 176px;
+   margin-top: 4px;
+   position: absolute;
+   margin-left: -42px;
+   border-radius: 100%;
+   border: 3px solid black;
+   padding: 13px;
+   margin-top: -35px;
+}
+.imgsf:hover {
+   border: 4px solid rgb(29, 29, 238);
+}
+.text {
+   margin-top: 80px;
+}
+
+ 
+.List{
+   color: black;
+   background-color: #dadada;
+   border-radius: 25px;
+   margin-right: 50px;
+   float: right;
+   width: 21%;
+   height: 326px;
+   padding: 39px;
+   font-size: 14px;
+   margin-top: 86px;
+
+
+}
+.List h2{
+   font-family: 'Montserrat', sans-serif;
+   color:#2d2769;
+   text-align: center;
+   margin-top: 0px;
+   font-size: 30px;
+ 
+}
+
+.List a {
+   text-decoration:none;
+   
+    color:#767676;
+
+    text-align: center;
+}
+ .List a:hover{
+  background-color:#dadada; ;
+   
+   color: black; 
+   
+   text-decoration:underline;
+}  
+    
+li{
+   
+    list-style-type: none;
+   margin: 13px;
+}
+
+.List ul {
+ 
+    margin-top: -14px;
+    margin-right: 20px;
+ 
+}
+.image{
+   width: 12%;
+   margin-right: 12px;
+   margin-left: -43px;
+}
+
+
+ .vedio{
+   width: 76%;
+   height: 408px;
+   margin-left: 12%;
+   margin-bottom: -90px;
+ }
+
+/* Baslz */
+.item {
+   font-family: 'Montserrat', sans-serif;
+   width: 100%;
+   height: 300px;
+   margin-top: 50px;
+}
+.des {
+   font-family: 'Montserrat', sans-serif;
+   float: 15px;
+   width: 45%;
+   margin-left: 240px;
+   margin-top: 28px;
+}
+.imgs {
+   width: 180px;
+   height: 176px;
+   margin-top: 4px;
+   position: absolute;
+   margin-left: -42px;
+   border-radius: 100%;
+   border: 3px solid black;
+   padding: 13px;
+}
+.imgs:hover {
+   border: 4px solid rgb(29, 29, 238);
+}
+.wer {
+   font-family: 'Montserrat', sans-serif;
+      color: #2d2769;
+}
+.parq {
+   font-family: 'Montserrat', sans-serif;
+   color: black;
+   font-size: 18px;
+}
+.parq a {
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(81, 122, 175);
+}
+#mapid {
+   margin-top:200px;
+   width: 80%;
+   height: 431px;
+   position: relative;
+   outline: none;
+   margin-bottom: 50px;
+   margin-left: 10%;
+}
+.imageAll{
+   margin-left: 100px;
+   margin-top: 20px;
+}
+
+.img-loc1{
+   margin-top: 1%;
+   width: 20%;
+   height: 300px;
+   border-radius: 5px;
+   margin-left: 40%;
+   transition: ease-out 1s;
+}
+.img-loc{
+   width: 20%;
+   height: 300px;
+   margin: 10px;
+   border-radius: 5px;
+   transition: ease-out .5s;
+}
+
+.img-loc1:hover,.img-loc:hover{
+   transform: scale(1.5,1.5);
+}
+/* .img-loc[title]{
+   width: 100px;
+   height: 100px;
+   border: 5px dashed red;
+} */
+.ammar{
+   margin: 5px;
+   padding: 7px;
+
+   margin-left: 31px;
+   position: absolute;
+}
+#facebook{
+   margin-left: 31px;
+   position: absolute;
+      
+   }
+   #icon{
+      margin-left: -31px;
+      position: absolute;
+
+   }
