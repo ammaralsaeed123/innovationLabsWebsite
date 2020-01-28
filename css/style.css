@@ -120,7 +120,7 @@ a:hover {
 }
 .Programs {
    width: 100%;
-   height: auto;
+   /* height: 1000px; */
    background-color: white;
    padding-top: 90px;
    margin-top: 200px;
@@ -128,7 +128,7 @@ a:hover {
 }
 .Locations {
    width: 100%;
-   height: 650px;
+   height:auto;
    padding-top: 90px;
    font-family: 'Montserrat', sans-serif;
 }
@@ -273,8 +273,11 @@ li{
  .vedio{
    width: 76%;
    height: 408px;
-   margin-left: 12%;
-   margin-bottom: -90px;
+   margin-left: 8%;
+   /* margin-bottom: -90px; */
+   margin-bottom: 50px;
+   margin-top: 50px;
+   background: gray;
  }
 
 /* Baslz */
@@ -315,7 +318,7 @@ li{
 }
 .parq a {
    font-family: 'Montserrat', sans-serif;
-   color: rgb(81, 122, 175);
+   color: blue;
 }
 #mapid {
    margin-top:200px;
@@ -326,25 +329,30 @@ li{
    margin-bottom: 50px;
    margin-left: 10%;
 }
+
+
+
 .imageAll{
-   margin-left: 100px;
+   /* margin-left: 10px; */
    margin-top: 20px;
 }
 
 .img-loc1{
    margin-top: 1%;
-   width: 20%;
+   width: 280px;
    height: 300px;
    border-radius: 5px;
    margin-left: 40%;
    transition: ease-out 1s;
 }
 .img-loc{
-   width: 20%;
+   width: 280px;
    height: 300px;
    margin: 10px;
    border-radius: 5px;
    transition: ease-out .5s;
+   /* margin-right: 30px; */
+   margin-left: 35px;
 }
 
 .img-loc1:hover,.img-loc:hover{
@@ -372,3 +380,18 @@ li{
       position: absolute;
 
    }
+   .lern{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      width: 80%;
+      margin-left: 10%;
+      
+   }
+   .flot-left{
+      margin: 10px;
+      margin-left: -50px;
+   }
+  .item .parq a:visited{
+     color: gray;  
+   }
+    
