@@ -65,6 +65,9 @@ a:hover {
    margin-top: -8px;
    font-family: 'Montserrat', sans-serif;
 }
+.clear{
+   clear: both;
+}
 /* Ammar alsaaed */
 #prev,
 #next {
@@ -73,7 +76,7 @@ a:hover {
    color: #fff;
    text-decoration: none;
    cursor: pointer;
-   margin-top: -45%;
+   margin-top: -33%;
    position: relative;
    background-color: transparent;
 }
@@ -90,7 +93,7 @@ a:hover {
 }
 .Home img {
    width: 100%;
-   height: 100%;
+   height: 666px
 }
 .grop {
    margin-top: 200px;
